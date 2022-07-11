@@ -61,6 +61,7 @@ syntax on "syntax highlighting
 set number "add numbers to each line on left-hand side
 
 "set color scheme
+
 set background=dark
 colorscheme palenight
 
