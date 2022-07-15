@@ -5,8 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias fucker='sudo'
-alias ligma='sudo'
+alias fucker='sudo '
+alias ligma='sudo '
+alias balls="pacman -S"
+alias nuts="pacman -S"
 # alias ligma_balls='sudo pacman'
 alias ...='../..'
 alias ....='../../..'

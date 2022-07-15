@@ -186,7 +186,7 @@ bindsym $mod+r mode "resize"
 #}
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec xrandr --dpi 100
+# exec xrandr --dpi 100
 # exec redshift -l 29:95
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec flameshot
@@ -194,6 +194,8 @@ exec nm-applet
 exec blueberry
 exec spotify
 exec --no-startup-id nitrogen --restore
-exec_always xrandr --auto --output eDP1 --auto --left-of DP4
+exec_always xrandr --auto --output eDP1 --auto --left-of DP4 --primary
+#exec_always xrandr --output DP4 --primary
+#exec_always xrandr --auto --output DP4 --auto --right-of eDP1
 exec_always --no-startup-id picom &
 # exec --no-startup-id xcompmgr -c &
