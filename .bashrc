@@ -5,11 +5,14 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias fucker='sudo '
 alias ligma='sudo '
 alias balls="pacman -S"
 alias nuts="pacman -S"
-# alias ligma_balls='sudo pacman'
+
+alias update="sudo pacman -Syyuu && yay -Syu"
+
+alias athome="xrandr --output DP-4 --primary"
+
 alias ...='../..'
 alias ....='../../..'
 
@@ -18,7 +21,7 @@ PS1='[\u@\h \W]\$ '
 
 neofetch
 acpi
-. "$HOME/.cargo/env"
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -35,3 +38,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+. "$HOME/.cargo/env"
