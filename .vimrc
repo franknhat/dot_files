@@ -15,11 +15,9 @@ Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'bfrg/vim-cpp-modern'
-Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
-Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
-" Plug 'ycm-core/YouCompleteMe'
-"added a plugin called \"youcompleteme\" to vim via yay (yay -S vim-youcompleteme-git)
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
@@ -31,10 +29,10 @@ call plug#end()
 
     "This will enable code folding.
     "Use the marker method of folding.
-    augroup filetype_vim
-        autocmd!
-        autocmd FileType vim setlocal foldmethod=marker
-    augroup END
+    "augroup filetype_vim
+        "autocmd!
+        "autocmd FileType vim setlocal foldmethod=marker
+    "augroup END
 
     " More Vimscripts code goes here.
 
@@ -52,6 +50,8 @@ nnoremap <C-f> :NERDTreeFind<CR>
 
 " Asthetics --------------------------------------------------------------{{{
 
+set relativenumber
+
 set cursorline "Highlight cursor horizontally
 
 set cursorcolumn "Highlight cursor vertically
@@ -65,7 +65,13 @@ set number "add numbers to each line on left-hand side
 set background=dark
 colorscheme palenight
 
+"for markdown preview
+let g:mkdp_theme = 'dark'
+
 let g:rainbow_active = 1 "something for vim-rainbow
+
+"stops auto folding
+set nofoldenable
 
 " }}}
 
