@@ -22,6 +22,7 @@ The point of this is for me to just cp if for whatever reason I needa reinstall 
     - acpi - to tell battery percentage, I have it call for acpi everytime I open the terminal
 - bashrc - well I just use bash no particular reason why. Alias is fun + gotta have the neofetch when I open terminal
 - vimrc - current vim set up. Im still trying to learn more keybindings before fousing on the extensions. Im currently happy with my vimrc anyways
+- dunst - my notification daemon. I didnt have it until recently because I did not care as much about notifications; however, it came to my atention that some apps need a notification daemon and would become temporarilty unresponsive without one (spotify, discord, and flameshot). Some apps would straight up freeze without one (tetrio if I tabbed out) so it became a necessity for me I guess
 
 # Images/Screenshots
 
