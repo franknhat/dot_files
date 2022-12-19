@@ -17,6 +17,9 @@ The point of this is for me to just cp if for whatever reason I needa reinstall 
 - picom - Just a compositer that I use for the transparency of terminal.
 - polybar - barely modified configs but I prefer this asthetic out of the box over i3 bar
 - alacritty - current prefered terminal of choice since out of box its nice
+    - neofetch - well duh
+        - lolcat - no idea what it does I just installed for the gradient on neofetch lol
+    - acpi - to tell battery percentage, I have it call for acpi everytime I open the terminal
 - bashrc - well I just use bash no particular reason why. Alias is fun + gotta have the neofetch when I open terminal
 - vimrc - current vim set up. Im still trying to learn more keybindings before fousing on the extensions. Im currently happy with my vimrc anyways
 
@@ -39,4 +42,8 @@ Wallpaper is being done with nitrogen
 Basically how I am taking lecture notes at home. Source on left, vim on right and markdown preview below the vim instance.
 
 If I use libre office for an assignment then soruce on left, libreoffice writer on right
+
+# Terminal
+
+![img](./images/terminal.png)
 

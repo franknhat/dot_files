@@ -184,6 +184,7 @@ bindsym $mod+r mode "resize"
 #Non defaults
 
 #locks system
+#bindsym $mod+Escape exec i3lock
 bindsym $mod+Escape exec $HOME/.config/i3/i3lock.sh
 
                    #boarder #top   #text   #Indecator #boarder
@@ -199,6 +200,9 @@ smart_borders on
 bindsym $mod+p exec flameshot gui 
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# exec xrandr --dpi 100
+# exec redshift -l 29:95
+# exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec flameshot
 exec nm-applet
 exec blueberry
@@ -206,3 +210,7 @@ exec spotify
 exec --no-startup-id nitrogen --restore
 exec_always xrandr --auto --output eDP-1 --auto --left-of DP-4
 exec_always --no-startup-id picom &
+
+#dunst is a notification daemon server designed to fit into minimalistic wm like dwm
+exec /usr/bin/dunst
+

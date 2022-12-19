@@ -18,6 +18,7 @@ Plug 'bfrg/vim-cpp-modern'
 Plug 'preservim/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 Plug 'ycm-core/YouCompleteMe'
+"added a plugin called \"youcompleteme\" to vim via yay (yay -S vim-youcompleteme-git)
 
 call plug#end()
 
@@ -100,4 +101,4 @@ set expandtab "use space chars instea of tabs
 set wildmenu "audo completion after pressing tab
 set wildmode=list:longest "whilemenu behave similar to Bash completion
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx "Ignoreing certain files we dont want to edit in vim
-set nowrap "Text does not wrap and go on the next line if it gets to long by default
+"set nowrap "Text does not wrap and go on the next line if it gets to long by default
