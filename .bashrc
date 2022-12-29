@@ -12,13 +12,15 @@ alias sugma="paru -S"
 alias deletus="sudo pacman -Rns"
 alias yah="echo 'YEET!'"
 
-alias term="nohup alacritty & sleep 2 & rm nohup.out"
+alias term="alacritty & disown"
 
 alias update="sudo pacman -Syyuu && paru -Sua"
 
 alias athome="xrandr --output DP-4 --primary && discord & disown  && exit"
 
 alias anicli="ani-cli"
+
+alias vm="virt-manager && exit"
 
 alias ...='../..'
 alias ....='../../..'

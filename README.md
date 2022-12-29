@@ -4,6 +4,8 @@ The customizations are just me wanting it and doing it. There is nothing really 
 
 The point of this is for me to just cp if for whatever reason I needa reinstall arch again... gotta love rolling release :D Ive had to reinstall a couple times for diff reasons. Most recent was instability with Linux kernal so I had to swap to Linux-LTS.
 
+I made a very simple shell script that checks differences in files so I dont have to worry about doing it myself manually or changing this every time I modify something
+
 # Configs, Programs, Usage
 - i3 - I prefer a wm over de
     - flameshot - screen shot
