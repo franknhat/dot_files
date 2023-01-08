@@ -25,14 +25,7 @@ I made a very simple shell script that checks differences in files so I dont hav
 - bashrc - well I just use bash no particular reason why. Alias is fun + gotta have the neofetch when I open terminal
 - vimrc - current vim set up. Im still trying to learn more keybindings before fousing on the extensions. Im currently happy with my vimrc anyways
 - dunst - my notification daemon. I didnt have it until recently because I did not care as much about notifications; however, it came to my atention that some apps need a notification daemon and would become temporarilty unresponsive without one (spotify, discord, and flameshot). Some apps would straight up freeze without one (tetrio if I tabbed out) so it became a necessity for me I guess
-
-# Shell Scripts
-I literally spent a solid few hours googling some stuff so I can do my shell scripts the way I wanted to.
-- Basically function.sh is a reused function that returns the differences in an array
-- diff.sh basically returns all the diff files from the repo to my own files. I can just use diff since my personal .config files has more files than this dot_files repo
-- cp.sh runs the cp command on the said files
-
-I wrote them the way I wanted to formatted it with no shell script knowledge. I just wanted to practice decent programming practice will making this even tho it def woulda been so much easier and simplier otherwise. I literally have over 20 tabs opened cuz I wanted to automate this instead of manually doing it and also I wanted it formatted a certain way. I dont 100% understand the code unfortunatly but the only part I didnt understand is the array part... the returning and using it.
+- diff.sh - it originally was 3 separate shell scripts that I had then turned into one. This just automates the tasks of finding differences between my repo and my acutal config files so I dont have to spend a few mins doing it when I can do it in seconds. It took a while to do. Both making the 3 shells and also combining them since I found more issues.
 
 # Images/Screenshots
 
