@@ -38,7 +38,7 @@ function main(){
 
         for diff in "${differences[@]}"; do
             if [ -d "${diff}" ]; then
-                eval "cp -r ~/${diff} ${diff}/../." #folder
+                eval "cp -r ~/${diff}/* ${diff}" #folder
             else
                 eval "cp ~/${diff} ${diff}" #file
             fi
