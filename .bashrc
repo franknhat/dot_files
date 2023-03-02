@@ -29,7 +29,7 @@ alias ....='../../..'
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-neofetch | lolcat
-acpi | lolcat
+neofetch
+acpi
 
 . "$HOME/.cargo/env"
