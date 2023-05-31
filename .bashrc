@@ -23,6 +23,8 @@ alias anicli="ani-cli"
 
 alias vm="virt-manager && exit"
 
+alias gif="sxiv -a"
+
 alias ...='../..'
 alias ....='../../..'
 
